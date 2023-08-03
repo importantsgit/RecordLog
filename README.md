@@ -1,4 +1,4 @@
-# JHLog
+# RecordLog
 로그를 기록하고 저장할 수 있는 Package입니다.
 
 
