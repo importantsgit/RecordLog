@@ -45,12 +45,13 @@ open class LogManager {
      ```
      */
     open func wirteLog(_ message: String? = nil,
+                         tag: String? = nil,
                          isSaveFile: Bool = false,
                          functionName: String = #function,
                          fileName: String = #file,
                          lineNumber: Int = #line) {
         
-        let logPrefix = "Log"
+        let logPrefix = tag ?? "Log"
         let className = (fileName as NSString).lastPathComponent
         
         guard let message = message,

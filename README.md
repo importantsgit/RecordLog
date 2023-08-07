@@ -10,6 +10,7 @@
      
          - Parameters:
              - message : 로그에 출력할 메세지
+             - tag : 로그에 대한 태그
              - isSaveFile :  로그를 txt 파일로 추출할 건지 여부
              - functionName : 함수 이름
              - fileName :  파일 이름
